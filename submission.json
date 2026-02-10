@@ -1,0 +1,57 @@
+﻿{
+  "projectName": "TODO: Project Title",
+  "tagline": "One-sentence user outcome.",
+  "team": {
+    "name": "Team Name",
+    "members": [
+      { "name": "Member 1", "role": "Role", "email": "", "github": "" },
+      { "name": "Member 2", "role": "Role", "email": "", "github": "" }
+    ]
+  },
+  "problem": "What problem and who faces it.",
+  "solution": "What you built and how it solves the problem.",
+  "targetUsers": "Primary persona / user segment.",
+  "techStack": {
+    "frontend": "",
+    "backend": "",
+    "database": "",
+    "infra": "",
+    "apisTools": []
+  },
+  "features": [
+    "Feature 1 - user value",
+    "Feature 2 - user value"
+  ],
+  "live": {
+    "url": "",
+    "testCredentials": ""
+  },
+  "repositories": {
+    "monoRepo": "https://github.com/...",
+    "frontend": "",
+    "backend": ""
+  },
+  "screenshots": [
+    "screenshots/demo.png"
+  ],
+  "setup": {
+    "prerequisites": ["Node >= 18", "Docker (optional)"],
+    "env": ["cp .env.example .env", "fill keys"],
+    "install": ["cd frontend && npm install", "cd backend && npm install"],
+    "run": ["npm run dev --prefix frontend", "npm run dev --prefix backend"]
+  },
+  "tests": [
+    "npm test --prefix frontend",
+    "npm test --prefix backend"
+  ],
+  "metrics": {
+    "primary": "e.g., task success rate or latency",
+    "current": "",
+    "target": ""
+  },
+  "futureScope": [
+    "Improvement 1",
+    "Improvement 2"
+  ],
+  "submittedAt": "2026-02-10T00:00:00Z"
+}
